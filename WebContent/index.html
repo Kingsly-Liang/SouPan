@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title>搜盘</title>
+	<style type = "text/css">
+			#father{
+				width:100%;
+				height:100%;
+				margin:auto;
+			}
+			
+			#top{
+				width:100%;
+				height:30%;
+			}
+			
+			#middle{
+				width:100%;
+				height:50%;
+				//background:url(./img/bg.jpg);
+				margin: auto;
+				line-height: 150px;
+			}
+			
+			#bottom{
+				width:100%;
+				height:20%;
+			}
+		</style>
+</head>
+
+<body>
+	<div id = "father">
+		<div id = "top" align = "center">
+			<br /><br />
+			<img src = "./sou.jpg">
+		</div>
+		<form action="SearchPan" id = "getPan" method = "post">
+		<div id = "middle" align = "center">
+			<input type = "text" id = "needSearch" name = "needSearch" size = "30" style="width:400px;height:50px;" placeholder="请输入关键字"> &nbsp; 
+			<input type = "submit" id = "search" value = "搜一下" style="width:100px;height:50px;">
+		</div>
+		</form>
+		<div id = "bottom" align = "center">
+			<p>声明：本站搜索结果来自Google自定义搜索，不存储任何工作内容，只提供信息检索服务。如果有侵犯的地方，联系我们及时整改。</p>
+			<p>	Copyright©2009-2018 盘搜(JobSou.Com) </p>
+		</div>
+	</div>
+</body>
+</html>
